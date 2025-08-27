@@ -1,3 +1,16 @@
+// banyak yang gagal compile karena kesalahan syntax comment
+// seharusnya:
+
+/**
+ Program Pertamaku 
+**/
+
+// atau:
+
+/*
+ Program Pertamaku 
+*/
+
 #include <stdio.h>
 
 int main()
