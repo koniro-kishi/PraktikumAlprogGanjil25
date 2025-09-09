@@ -17,6 +17,7 @@ while(1)
             if (b > a) swap
             if (a % b == 0) counter++
 */
+
 #include <stdio.h>
 
 
