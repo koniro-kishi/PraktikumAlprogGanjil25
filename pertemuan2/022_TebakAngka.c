@@ -17,7 +17,7 @@ int main(){
 
     if (c==a || c==b){      // dipastiin dulu c == a atau c == b
         printf("tepi"); 
-    }                       // kalau c == a atau c == b salah, berarti c != a dan c != b
+    }                       // kalau c == a atau c == b salah, berarti c != a, c != b, dan a != b
     else if (c < a){        // kalau a < b dan c < a berarti c < a < b
         printf("kiri");     // artinya c di paling kiri
     }                       // kalau c < a salah, pasti c > a
