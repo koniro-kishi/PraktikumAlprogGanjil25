@@ -3,8 +3,8 @@
 int main(){
     int jumlah_n, posisi_k;
     scanf("%d %d", &jumlah_n, &posisi_k);
-
-    if (posisi_k == 0) {
+ 
+    if (jumlah_n == 0 || posisi_k == 0 || posisi_k > jumlah_n) {
         printf("%.2f", 0);
         return 0;
     }
