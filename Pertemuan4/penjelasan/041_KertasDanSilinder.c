@@ -3,7 +3,7 @@
 int main()
 {
     double pi = 3.14159;
-    double R, R1, T, T1, V, V1, X, R2, T2, V2, Vol = 0.0;
+    double R3, R1, T3, T1, V3, V1, X, R2, T2, V2, Vol = 0.0;
     double lebar, tinggi;
 
     while (1){
@@ -18,16 +18,16 @@ int main()
         T2 = lebar;
         V2 = pi * R2 * R2 * T2;
 
-        if ( (2 * R1) >= lebar) {Vol = V2;}
+        R3 = lebar / (2 * pi);
+        X = 2 * R3;
+        T3 = tinggi - X;
+        V3 = pi * R3 * R3 * T3;
+
+        if ((2 * R1) >= lebar) {Vol = V2;}
         else {Vol = V1;}
+        if(V3 > Vol) Vol = V3;
 
-        R = lebar / (2 * pi);
-        X = 2 * R;
-        T = tinggi - X;
-        V = pi * R * R * T;
-
-        if (V > Vol) {printf("%.3lf\n", V);}
-        else {printf("%.3lf\n", Vol);}
+        printf("%.3lf\n", Vol);
     }
     return 0;
 }

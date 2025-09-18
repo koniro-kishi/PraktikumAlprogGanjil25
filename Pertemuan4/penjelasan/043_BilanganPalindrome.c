@@ -13,7 +13,6 @@ int main(){
         // 2. ambil angka kedua dari belakang original, taruh di paling belakang reversed, alias kedua dari depan reversed
         // 3. ambil angka ketiga dari belakang original, taruh di paling belakang reversed, alias ketiga dari depan reversed
         // dst sampai semua angka keambil
-
         while(sementara > 0){
             int digit = sementara % 10;         // % 10 bakal ngembaliin angka satuan -> angka paling belakang original saat ini
             reversed = reversed * 10 + digit;   // selipin angka paling belakang original tadi di paling belakang reversed
