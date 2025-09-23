@@ -6,14 +6,14 @@ int main(){
     int counter1 = 0;
     int counter2 = 0;
 
-    for(int i=0; i<2001; i++){
+    for(int i=0; i<=2000; i++){
         int inputArr1; scanf("%d", &inputArr1);
         if(inputArr1 == -9) break;
         arr1[counter1] = inputArr1;
         counter1++;
     }
 
-    for(int i=0; i<2001; i++){
+    for(int i=0; i<=2000; i++){
         int inputArr2; scanf("%d", &inputArr2);
         if(inputArr2 == -9) break;
         arr2[counter2] = inputArr2;
