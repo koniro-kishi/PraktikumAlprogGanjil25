@@ -6,7 +6,8 @@ int main()
 
     int arr[n];
 
-    for (int i = 0; i < n; i++) scanf("%d", &arr[i]);
+    for (int i = 0; i < n; i++) 
+        scanf("%d", &arr[i]);
 
     int counter = 0;
 
@@ -15,10 +16,8 @@ int main()
 
         for (int j = i; j < n; j++){
             sum += arr[j];
+            if (sum == 47) counter++;
             if (sum > 47) break;
-            if (sum == 47){
-                counter++;
-            }
         }
     }
 
