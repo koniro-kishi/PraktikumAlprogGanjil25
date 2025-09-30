@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(){
-    int n, inp, countSwap = 0;
+    int n, inp;
     int arr[10000] = {0};
 
     scanf("%d", &n);
